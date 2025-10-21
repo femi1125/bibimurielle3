@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F9FA;
+    color: #343A40;
+    line-height: 1.6;/*ça c'est pour faire en sorte qu'il y ait des espaces entre les lignes*/
+    margin: 0;/*ceci c'est pour supprimer les marges mises par défaut par le navigateur*/
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: steelblue;
+    font-weight: bold;/* le bold c'est pour mettre les écritures en gras*/
+}
+
+a {
+    text-decoration: none; /* ici c'est pour supprimer le soulignement qui est souvent sous les liens */
+    color: steelblue;
+}
+
+a:hover {
+    /*le hover c'est pour que losque le curseur est sur la partie elle change de couleur*/
+    color: green;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;/* c'est pour faire en sorte que le bouton ne prenne pas toute la largeur de la page */
+    padding: 10px 20px;
+    border-radius: 5px;/* le border radius sert à arrondire les coins du bouton*/ 
+    margin-top: 15px;/* le margin top c'est pour l'espace en dessus du bouton*/
+    color: white;
+    background-color: steelblue;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+}
+
+.btns {
+    background-color: green;
+}
+
+.btns:hover {
+    background-color: lightgreen;
+}
+
+
+
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px black;    /* le box shadow c'est pourqu'il y ait d'ombre autour de la boîte sélctionnée, ici l'ombre va s'appliquer uniquement en dessous */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between; /* pour qu'il y ait de l'espace entre le logo et le menu */
+    align-items: center; /* pour centrer verticalement les éléments */
+}
+
+.logo {
+    font-size: 50px;/* le font size c'est pour définir la taille de la police*/
+    font-weight: bold;
+    color: skyblue;
+}
+
+.logo1{
+    color: green;
+}
+
+nav ul {
+   list-style: none;/*ceci est pour dire à la machine d'enlever les puces de la liste*/
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* gap permet de mettre de l'espace entre les liens */
+}
+
+
+.sect1 {
+    text-align: center; 
+    padding: 80px 20px;
+    background-color: lightgreen;
+}
+
+.sect1 h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.sect1 p {
+    font-size: 25px;
+    max-width: 700px;/*c'est pour la largeur de la partie*/
+    margin: 0 auto 25px auto;
+}
+
+.service h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servicec {
+    display: flex;
+    justify-content: space-around; /* pour mettre de l'espace autour des sections */
+    gap: 20px; 
+    flex-wrap: wrap; /* ceci permet à ce que lorsqu'un utilisateur passe sur un petit écran les sections se mettent à la ligne un peu comme le word wrap dans le vscode ici */
+}
+
+.carte {
+    flex: 1;    /* ceci permet à la carte de s'agrandir mais limite sa largeur */
+    min-width: 280px;/* largeur minimale*/
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px gray;
+    /* Une ligne de couleur verte en haut de la carte. */
+    border-top: 5px solid green;
+}
+
+.carte h3 {
+    color: green;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    background-color: white;
+    border-top: 1px solid #ccc6c6;
+    text-align: center;
+}
+
+.contactf {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left; /* pour que le texte à l'intérieur du formulaire se mette à gauche */
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;     /* pour que le label s'affiche au-dessus du champ. */
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.contactf input,
+.contactf textarea,
+.contactf select {
+    width: 100%;    /* cette partie prend la largeur disponible à100% */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    
+}
+
+
+footer {
+    background-color: #4a4d50; 
+    color: #c7c9cc;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 0.9em;
+}
+

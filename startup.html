@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroData </title>
+    <link rel="stylesheet" href="startup.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>Aero</span><span class="logo1">Data</span> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="accueil">
+        <section class="sect1">
+            <h1>Optimisez vos récoltes avec l'intelligence aérienne.</h1>
+            <p>AeroData utilise des drones et l'IA pour fournir des analyses précises de la santé des cultures, réduisant les coûts et maximisant les rendements agricoles.</p>
+            <a href="#services" class="btn">Découvrez nos solutions</a>
+        </section>
+
+        <section id="services" class="service">
+            <h2>Nos Solutions d'Analyse</h2>
+            <div class="servicec">
+                
+                <article class="carte">
+                    <h3>Cartographie Végétale</h3>
+                    <p>Analyse et imagerie multispectrale pour détecter les problèmes de santé des plantes avant qu'ils ne soient visibles à l'œil nu.</p>
+                </article>
+                
+                <article class="carte">
+                    <h3>Gestion de l'Irrigation</h3>
+                    <p>Évaluation de la teneur en eau du sol par thermographie pour une application précise et ciblée de l'irrigation, économisant l'eau.</p>
+                </article>
+                
+                <article class="carte">
+                    <h3>Comptage et Densité</h3>
+                    <p>Détermination précise du nombre de plants, de l'espacement et de la densité pour optimiser les semis futurs et l'évaluation des dommages.</p>
+                </article>
+                
+            </div>
+        </section>
+
+        <section id="apropos" class="aproposs">
+            <h2>Notre Mission</h2>
+            <p>Fondée en 2024, AeroData s'engage à rendre l'agriculture plus durable et plus rentable grâce à l'intégration de technologies de pointe. Notre équipe regroupe des experts en agronomie, en robotique et en science des données.</p>
+        </section>
+
+        <section id="contact" class="contacts">
+            <h2>Contactez nos experts</h2>
+            <form action="#" method="POST" class="contactf">
+                <div class="form">
+                    <label for="nom">Nom Complet :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                
+                <div class="form">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form">
+                    <label for="sujet">Sujet :</label>
+                    <select id="sujet" name="sujet">
+                        <option value="demo">Demande de Démonstration</option>
+                        <option value="devis">Demande de Devis</option>
+                        <option value="partenariat">Partenariat</option>
+                    </select>
+                </div>
+                
+                <div class="form">
+                    <label for="message">Votre Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="btns">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright: 2025 AeroData</p>
+        
+    </footer>
+
+</body>
+</html>
